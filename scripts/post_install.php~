@@ -1,0 +1,11 @@
+<?php
+
+function post_install(){
+    
+	require_once(__DIR__ . '/hungarian_name.php');
+
+	changeFirstAndLastName();
+
+} 
+
+?>

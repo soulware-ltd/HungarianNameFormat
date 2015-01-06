@@ -1,0 +1,59 @@
+<?php
+
+$files_to_change = array();
+$files_to_change[] = array(
+'module' => '',
+'sourcefile' => '',
+'type' => 'metadata',
+'replace' => array(
+				'first_name' => 'last_name',
+				'last_name' => 'first_name',
+			),
+);
+$files_to_change[] = array(
+'module' => '',
+'sourcefile' => '',
+'type' => 'metadata',
+'replace' => array(
+				'first_name' => 'last_name',
+				'last_name' => 'first_name',
+			),
+);
+$files_to_change[] = array(
+'module' => '',
+'sourcefile' => '',
+'type' => 'metadata',
+'replace' => array(
+				'first_name' => 'last_name',
+				'last_name' => 'first_name',
+			),
+);
+$files_to_change[] = array(
+'module' => '',
+'sourcefile' => '',
+'type' => 'metadata',
+'replace' => array(
+				'first_name' => 'last_name',
+				'last_name' => 'first_name',
+			),
+);
+$files_to_change[] = array(
+'module' => '',
+'sourcefile' => '',
+'type' => 'metadata',
+'replace' => array(
+				'first_name' => 'last_name',
+				'last_name' => 'first_name',
+			),
+);
+$files_to_change[] = array(
+'module' => '',
+'sourcefile' => '',
+'type' => 'metadata',
+'replace' => array(
+				'first_name' => 'last_name',
+				'last_name' => 'first_name',
+			),
+);
+
+?>

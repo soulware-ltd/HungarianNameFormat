@@ -1,0 +1,59 @@
+<?php
+
+$files_to_change = array();
+$files_to_change[] = array(
+'module' => 'Contacts',
+'sourcefile' => 'editviewdefs.php',
+'type' => 'metadata',
+'replace' => array(
+				'first_name' => 'last_name',
+				'last_name' => 'first_name',
+			),
+);
+$files_to_change[] = array(
+'module' => 'Contacts',
+'sourcefile' => 'quickcreatedefs.php',
+'type' => 'metadata',
+'replace' => array(
+				'first_name' => 'last_name',
+				'last_name' => 'first_name',
+			),
+);
+$files_to_change[] = array(
+'module' => 'Prospects',
+'sourcefile' => 'editviewdefs.php',
+'type' => 'metadata',
+'replace' => array(
+				'first_name' => 'last_name',
+				'last_name' => 'first_name',
+			),
+);
+$files_to_change[] = array(
+'module' => 'Prospects',
+'sourcefile' => 'quickcreatedefs.php',
+'type' => 'metadata',
+'replace' => array(
+				'first_name' => 'last_name',
+				'last_name' => 'first_name',
+			),
+);
+$files_to_change[] = array(
+'module' => 'Leads',
+'sourcefile' => 'convertdefs.php',
+'type' => 'metadata',
+'replace' => array(
+				'first_name' => 'last_name',
+				'last_name' => 'first_name',
+			),
+);
+$files_to_change[] = array(
+'module' => 'Leads',
+'sourcefile' => 'editviewdefs.php',
+'type' => 'metadata',
+'replace' => array(
+				'first_name' => 'last_name',
+				'last_name' => 'first_name',
+			),
+);
+
+?>
